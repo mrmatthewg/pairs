@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnCount="4"
+    android:orientation="vertical">
+
+    <ImageView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x0"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"
+        />
+
+    <ImageView
+      android:text="1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/x1"
+      android:layout_columnSpan="1"
+      android:contentDescription="@string/dinosaur"
+      android:visibility="invisible"
+      android:onClick="onClick"
+      />
+
+    <ImageView
+        android:text="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x2"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"
+        />
+
+    <ImageView
+        android:text="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x3"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"
+        />
+
+    <ImageView
+        android:text="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x4"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:text="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x5"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:text="6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x6"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:text="7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x7"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"
+        />
+
+    <ImageView
+        android:text="8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x8"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"/>
+
+
+    <ImageView
+        android:text="9"
+        android:layout_width="209dp"
+        android:layout_height="209dp"
+        android:id="@+id/x9"
+        android:layout_columnSpan="4"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"
+        android:nestedScrollingEnabled="false"
+        />
+
+    <ImageView
+        android:text="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x10"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"
+        />
+
+    <ImageView
+        android:text="11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x11"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:text="12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x12"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:text="13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x13"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:text="14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x14"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:text="15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x15"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/dinosaur"
+        android:visibility="invisible"
+        android:onClick="onClick"
+        />
+
+
+
+
+
+</GridLayout>
