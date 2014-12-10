@@ -51,17 +51,32 @@ public class ImageAdapter extends BaseAdapter {
             R.drawable.cardback, R.drawable.cardback,
             R.drawable.cardback, R.drawable.cardback,
             R.drawable.cardback, R.drawable.cardback,
-            R.drawable.cardback, R.drawable.cardback,
-            R.drawable.cardback, R.drawable.cardback,
-            R.drawable.cardback, R.drawable.cardback,
-            R.drawable.cardback, R.drawable.cardback,
-            R.drawable.cardback, R.drawable.cardback,
-            R.drawable.cardback, R.drawable.cardback
+
 
     };
 
 
     public static Integer[] resetThumbIds = {
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+
+
+    };
+
+
+    public static Integer[] resetThumbIds1 = {
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+
+    };
+
+
+    public static Integer[] resetThumbIds2 = {
             R.drawable.cardback, R.drawable.cardback,
             R.drawable.cardback, R.drawable.cardback,
             R.drawable.cardback, R.drawable.cardback,

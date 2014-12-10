@@ -9,6 +9,27 @@ public class GameLogic {
 
     public static int[] dinosaur = {
             R.drawable.bronto1, R.drawable.bronto1,             //References the dinosaurs.
+            R.drawable.dino2, R.drawable.dino2,
+            R.drawable.steg3, R.drawable.steg3
+    };
+
+    public static int[] dinosaur0 = {
+            R.drawable.bronto1, R.drawable.bronto1,             //References the dinosaurs.
+            R.drawable.dino2, R.drawable.dino2,
+            R.drawable.steg3, R.drawable.steg3
+    };
+
+    public static int[] dinosaur1 = {
+            R.drawable.bronto1, R.drawable.bronto1,             //References the dinosaurs.
+            R.drawable.bronto2, R.drawable.bronto2,
+            R.drawable.dino2, R.drawable.dino2,
+            R.drawable.dino3, R.drawable.dino3,
+            R.drawable.steg1, R.drawable.steg1,
+            R.drawable.steg2, R.drawable.steg2,
+    };
+
+    public static int[] dinosaur2 = {
+            R.drawable.bronto1, R.drawable.bronto1,             //References the dinosaurs.
             R.drawable.bronto2, R.drawable.bronto2,
             R.drawable.bronto3, R.drawable.bronto3,
             R.drawable.dino1, R.drawable.dino1,
@@ -18,6 +39,7 @@ public class GameLogic {
             R.drawable.steg2, R.drawable.steg2,
             R.drawable.steg3, R.drawable.steg3
     };
+
 
     static int firstCardDinosaur;
     static int firstCardPosition;
