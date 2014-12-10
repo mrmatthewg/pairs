@@ -11,7 +11,6 @@ public class ImageAdapter extends BaseAdapter {
 
     private Context mContext;
 
-
     public ImageAdapter(Context c) {
         mContext = c;
 
@@ -47,7 +46,7 @@ public class ImageAdapter extends BaseAdapter {
     }
 
 
-    // references to our images
+    // references to my images.
     public static Integer[] mThumbIds = {
             R.drawable.cardback, R.drawable.cardback,
             R.drawable.cardback, R.drawable.cardback,
@@ -58,6 +57,21 @@ public class ImageAdapter extends BaseAdapter {
             R.drawable.cardback, R.drawable.cardback,
             R.drawable.cardback, R.drawable.cardback,
             R.drawable.cardback, R.drawable.cardback
+
+    };
+
+
+    public static Integer[] resetThumbIds = {
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback,
+            R.drawable.cardback, R.drawable.cardback
+
     };
 
 

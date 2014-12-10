@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Pairs.iml" filepath="$PROJECT_DIR$/Pairs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pairs - Copy (3).iml" filepath="$PROJECT_DIR$/Pairs - Copy (3).iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/svg-android-1.1/svg-android-1.1.iml" filepath="$PROJECT_DIR$/svg-android-1.1/svg-android-1.1.iml" />
     </modules>
   </component>
 </project>

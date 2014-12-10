@@ -7,8 +7,8 @@ import static mjay.pairs.ImageAdapter.mThumbIds;
 public class GameLogic {
 
 
-    public static Integer[] dinosaur = {
-            R.drawable.bronto1, R.drawable.bronto1,
+    public static int[] dinosaur = {
+            R.drawable.bronto1, R.drawable.bronto1,             //References the dinosaurs.
             R.drawable.bronto2, R.drawable.bronto2,
             R.drawable.bronto3, R.drawable.bronto3,
             R.drawable.dino1, R.drawable.dino1,
@@ -21,16 +21,25 @@ public class GameLogic {
 
     static int firstCardDinosaur;
     static int firstCardPosition;
-    static int wrongCardPosition;
+    static int secondCardDinosaur;
+    static int secondCardPosition;
+    static int pairs;
+    static boolean reset = true;
     static boolean cardOpen = false;
-    static boolean wrongCard = false;
+    static boolean cardOpen2 = false;
     static boolean paired[] = {false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false};
-
+    static boolean pairedReset[] = {false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false};
 
     public static void logic(int position) {
 
-
         if (!paired[position]) {
+            if (reset == true) {                                                //Checks for reset condition.
+                mThumbIds[firstCardPosition] = R.drawable.cardback;
+                mThumbIds[secondCardPosition] = R.drawable.cardback;
+                reset = false;
+                cardOpen = false;
+                cardOpen2 = false;
+            }
             if (!cardOpen) {
                 mThumbIds[position] = dinosaur[position];
                 firstCardDinosaur = dinosaur[position];
@@ -38,23 +47,31 @@ public class GameLogic {
                 cardOpen = true;
             } else {
 
-                if (dinosaur[position].equals(firstCardDinosaur)) {
-                    mThumbIds[position] = dinosaur[position];
-                    paired[position] = true;     // Used to avoid card being checked again.
-                    paired[firstCardPosition] = true;
-                    cardOpen = false;
+                if ((!cardOpen2) && (position != firstCardPosition)) {            // Added the && condition,
+                    mThumbIds[position] = dinosaur[position];                   // So that double clicks can be avoided.
+                    secondCardDinosaur = dinosaur[position];                    // I may move this.
+                    secondCardPosition = position;
+                    cardOpen2 = true;
                 } else {
-                    mThumbIds[firstCardPosition] = R.drawable.cardback;
-                    mThumbIds[position] = dinosaur[position];
-                    wrongCard = true;
-                    cardOpen = true;
-                    wrongCardPosition = position;
+                    reset = true;
                 }
 
+                if (firstCardDinosaur == secondCardDinosaur) {                  // Compares the dinosaurs to check for match.
+                    paired[firstCardPosition] = true;                           // Updates the paired array.
+                    paired[secondCardPosition] = true;
+                    pairs = pairs + 1;                                          // Increments number of pairs.
+                    cardOpen = false;
+                    cardOpen2 = false;
 
+
+                } else {
+                    reset = true;                                               // Reset to true, for next click.
+                }
             }
 
         }
-
     }
 }
+
+
+
